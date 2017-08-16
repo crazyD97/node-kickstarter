@@ -1,0 +1,1 @@
+# Kickstarter for node projects

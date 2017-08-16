@@ -1,0 +1,42 @@
+{
+  "name": "start-sys",
+  "version": "1.0.0",
+  "description": "a kickstarter for all your node projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazyD97/node-kickstarter.git"
+  },
+  "author": "crazyD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crazyD97/node-kickstarter/issues"
+  },
+  "homepage": "https://github.com/crazyD97/node-kickstarter#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.3",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.4",
+    "express-validator": "^3.2.1",
+    "mongoose": "^4.11.3",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "pug": "^2.0.0-rc.2"
+  },
+  "main": "app.js"
+}
